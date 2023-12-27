@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+ 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css"> 
+    <title>Car Website - Contact</title> 
+</head> 
+<style> 
+    body { 
+        background-image: url(ham.png); 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+    } 
+</style> 
+ 
+<body> 
+    <header> 
+        <nav> 
+            <ul> 
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="cars.html">Cars</a></li> 
+                <li><a href="about.html">About Cars</a></li> 
+                <li><a href="project.html">information</a></li> 
+                <li><a href="contact.html">Payment</a></li> 
+                
+ 
+            </ul> 
+        </nav> 
+    </header> 
+    <form class="form" method="post" > 
+        <h1>credit number: <input type="text" required placeholder="000/000/000" name="num"> </h1> 
+        <h1 class="name"> password: <input type="password" required placeholder="enter your password" name="pass"></h1>
+        <button id="button" onclick="f1()" type="button">Submit</button> <button id="button" type="reset"> Reset </button>
+    </form> 
+    <script> 
+     function f1() {
+                  alert("Successful operation");
+     }
+    </script> 
+    <footer> 
+        <p>&copy; 2023 Car Website</p> 
+    </footer> 
+</body> 
+ 
+</html>

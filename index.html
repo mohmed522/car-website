@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-image: url(ham.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+          
+        }
+
+
+    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Car Website - Home</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cars.html">Cars</a></li>
+        <li><a href="about.html">About Cars</a></li>
+        <li><a href="project.html">information</a></li>
+        <li><a href="contact.html">Payment</a></li>
+       
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <h1> Welcome to our Car Website</h1>
+    <p>Find the best deals on new cars!</p>
+<img width="20%" height="20%" src="part2.png"> <img  width="20%" height="20%" src="part3.png">    
+
+  </section>
+  <footer >
+    <p id="date"> </p>
+  </footer>
+  <script>
+    var now = new Date();
+    date = now.getDate();
+    month = now.getMonth();
+    year = now.getFullYear();
+    document.getElementById('date').textContent=(date +"/" + month + "/" + year);
+  </script>
+</body>
+</html>

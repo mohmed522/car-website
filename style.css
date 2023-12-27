@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: red;
+    color: #fff;
+    position: absolute ;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  a:hover{
+  
+    border: 1 px  #700;
+    padding: 10px;
+    color: black;
+    background: #fff;
+    border-radius: 2px;
+    font-size: 20px;
+    
+    
+  }
+  #button{
+    font-size: larger;
+    margin-left: 100px;
+    padding: 7px;
+    background-color: rgb(20, 20, 20);
+    font:bold;
+    color: aliceblue;
+  }
+  #button:hover{
+    font-size: larger;
+    margin-left: 100px;
+    padding: 7px;
+    background-color: rgb(249, 5, 5);
+    font:bold;
+    color: aliceblue;
+  }
+ .text{
+  font-size: 80px;
+  width: fit-content;
+  padding: 50px;
+  width: 40%;
+ }
+ 
+
+table{
+  background-color: black;
+  
+  color: aliceblue;
+  font-size: larger;
+  font-style: normal;
+
+}
+.car1{
+  opacity: 0.5;
+  object-fit: scale-down;
+ }
+ .car1:hover{
+  opacity: 1;
+  object-fit: fill;
+} 
+.a1{
+  border: 1 px;
+  padding: 15;
+  color: black;
+  background:#fff;
+  border-radius: 5;
+  font-size:20px;
+  transition: all 0.2s;
+}
+.a1:hover{
+  border: 1 px;
+  padding: 15;
+  color: white;
+  background:rgb(60, 255, 0);
+  border-radius: 5;
+  font-size: 20px;
+  transition: all 0.2s;
+}
+ 
